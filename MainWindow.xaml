@@ -9,7 +9,7 @@
     <Grid>
         <Button Content="Загрузить" HorizontalAlignment="Center" Margin="0,350,0,0" VerticalAlignment="Top" Click="DownloadButton_Click"/>
         <ProgressBar Name="downloadProgressBar" VerticalAlignment="Top" Margin="10,230,10,0" Height="49"/>
-        <Label x:Name="downloadSpeedLabel" Content="Label" Margin="24,94,207,295"/>
-        <Label x:Name="downloadedSizeLabel" Content="Label" Margin="24,173,127,209"/>
+        <Label x:Name="downloadSpeedLabel" Content="Скорость" Margin="24,94,207,282"/>
+        <Label x:Name="downloadedSizeLabel" Content="Общий объем" Margin="24,173,127,209"/>
     </Grid>
 </Window>
